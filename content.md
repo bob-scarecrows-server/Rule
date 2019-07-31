@@ -1,4 +1,9 @@
 # 서버 구동 방식
+1. 192.168.0.5:80
+2. 192.168.111.130:80 기본 서버
+3. 192.168.111.133 방어 모듈
+4. 192.168.111.134 서비스
+
 
 플라스크 + 아파치2 → 배포
 
@@ -13,6 +18,9 @@
 3. snort rule
 4. http : form action -> response 에서 오는 id와 passwd 확인
 -> parser로 확인
+5. 방화벽 설정에서 inbound 규칙 설정
+-> 80번 열고 방어 모듈의 IP를 연결한다.
+
 
 # 공격 유형
 ## fuzzer -> wfuzz : web application fuzzer
