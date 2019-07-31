@@ -15,11 +15,12 @@
 -> parser로 확인
 
 # 공격 유형
-1. fuzzer -> wfuzz : web application fuzzer
-sm=~~
-fbm=~~
-le=~~
-query=~~
+## fuzzer -> wfuzz : web application fuzzer
+1. sm=~~
+2. fbm=~~
+3. le=~~
+4. query=~~
+5. fuzz dictionary web
 
 # 공격 우회
 
